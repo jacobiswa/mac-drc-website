@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - MAC DRC SARL</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandOrange: '#FF6B00',
+                        brandOrangeHover: '#E05E00',
+                        grayLight: '#F8FAFC',
+                        grayBorder: '#E2E8F0',
+                        grayDark: '#1E293B'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-white text-gray-800 antialiased flex flex-col min-h-screen">
+
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-grayBorder">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="index.html" class="flex items-center space-x-3">
+                <div class="bg-brandOrange text-white font-extrabold text-xl px-3 py-1.5 rounded-lg shadow-sm">MAC DRC</div>
+                <span class="text-xs font-semibold tracking-widest text-gray-500 uppercase hidden sm:block">SARL</span>
+            </a>
+            <nav class="hidden md:flex space-x-8 text-sm font-semibold text-gray-700">
+                <a href="index.html" class="hover:text-brandOrange transition">Home</a>
+                <a href="services.html" class="hover:text-brandOrange transition">Our Services</a>
+                <a href="contact.html" class="text-brandOrange">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="py-16 bg-grayLight flex-grow">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12">
+                
+                <!-- Contact Details & Addresses -->
+                <div>
+                    <h1 class="text-3xl font-extrabold text-grayDark mb-6">Get in Touch with Our Team</h1>
+                    <p class="text-gray-600 mb-8">We are available to review your needs in Kinshasa, Lubumbashi, or anywhere across the Democratic Republic of the Congo.</p>
+
+                    <div class="space-y-6">
+                        <div class="flex items-start bg-white p-6 rounded-2xl border border-grayBorder">
+                            <i data-lucide="phone" class="w-6 h-6 text-brandOrange mr-4 mt-1"></i>
+                            <div>
+                                <h4 class="font-bold text-grayDark">Phone Numbers</h4>
+                                <p class="text-sm text-gray-600">+243 892 005 682</p>
+                                <p class="text-sm text-gray-600">+243 836 911 612</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start bg-white p-6 rounded-2xl border border-grayBorder">
+                            <i data-lucide="mail" class="w-6 h-6 text-brandOrange mr-4 mt-1"></i>
+                            <div>
+                                <h4 class="font-bold text-grayDark">Email Addresses</h4>
+                                <p class="text-sm text-gray-600">macdrcsarl@gmail.com</p>
+                                <p class="text-sm text-gray-600">contact@macdrc.cd</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start bg-white p-6 rounded-2xl border border-grayBorder">
+                            <i data-lucide="map-pin" class="w-6 h-6 text-brandOrange mr-4 mt-1"></i>
+                            <div>
+                                <h4 class="font-bold text-grayDark">Operating Offices</h4>
+                                <p class="text-sm font-semibold text-gray-700 mt-2">Kinshasa:</p>
+                                <p class="text-sm text-gray-600">N°11, Avenue Kwango, Q. Joli Parc, Comm. de Ngaliema</p>
+                                
+                                <p class="text-sm font-semibold text-gray-700 mt-2">Lubumbashi:</p>
+                                <p class="text-sm text-gray-600">N°02, Avenue Saint Bernard, Q. Météo, Haut-Katanga</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="bg-white p-8 rounded-3xl border border-grayBorder shadow-sm">
+                    <h3 class="text-xl font-bold text-grayDark mb-6">Send Us a Message</h3>
+                    <form action="#" method="POST" class="space-y-4">
+                        <div>
+                            <label class="block text-xs font-bold uppercase text-gray-500 mb-1">Full Name</label>
+                            <input type="text" class="w-full px-4 py-3 border border-grayBorder rounded-xl focus:ring-2 focus:ring-brandOrange focus:outline-none" placeholder="Your name">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold uppercase text-gray-500 mb-1">Email or Phone Number</label>
+                            <input type="text" class="w-full px-4 py-3 border border-grayBorder rounded-xl focus:ring-2 focus:ring-brandOrange focus:outline-none" placeholder="contact@domain.com">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold uppercase text-gray-500 mb-1">Relevant Service</label>
+                            <select class="w-full px-4 py-3 border border-grayBorder rounded-xl focus:ring-2 focus:ring-brandOrange focus:outline-none bg-white">
+                                <option>Civil Engineering & Construction</option>
+                                <option>Automotive & General Mechanics</option>
+                                <option>Import & Export</option>
+                                <option>Logistics & Transportation</option>
+                                <option>Supply of Goods & Services</option>
+                                <option>Environment & CSR</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold uppercase text-gray-500 mb-1">Message / Project Details</label>
+                            <textarea rows="4" class="w-full px-4 py-3 border border-grayBorder rounded-xl focus:ring-2 focus:ring-brandOrange focus:outline-none" placeholder="Describe your requirements..."></textarea>
+                        </div>
+                        <button type="submit" class="w-full py-3.5 bg-brandOrange hover:bg-brandOrangeHover text-white font-bold rounded-xl shadow-md transition">
+                            Submit Request
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-white border-t border-grayBorder py-6 text-center text-xs text-gray-500">
+        &copy; 2026 MAC DRC SARL. All rights reserved.
+    </footer>
+
+    <script>lucide.createIcons();</script>
+</body>
+</html>

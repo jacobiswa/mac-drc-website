@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - MAC DRC SARL</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandOrange: '#FF6B00',
+                        brandOrangeHover: '#E05E00',
+                        grayLight: '#F8FAFC',
+                        grayBorder: '#E2E8F0',
+                        grayDark: '#1E293B'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-white text-gray-800 antialiased flex flex-col min-h-screen">
+
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-grayBorder">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="index.html" class="flex items-center space-x-3">
+                <div class="bg-brandOrange text-white font-extrabold text-xl px-3 py-1.5 rounded-lg shadow-sm">MAC DRC</div>
+                <span class="text-xs font-semibold tracking-widest text-gray-500 uppercase hidden sm:block">SARL</span>
+            </a>
+            <nav class="hidden md:flex space-x-8 text-sm font-semibold text-gray-700">
+                <a href="index.html" class="hover:text-brandOrange transition">Home</a>
+                <a href="services.html" class="text-brandOrange">Our Services</a>
+                <a href="contact.html" class="hover:text-brandOrange transition">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="py-16 bg-grayLight flex-grow">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h1 class="text-4xl font-extrabold text-grayDark mb-4">Complete Catalog of Services</h1>
+                <p class="text-gray-600">From feasibility studies to field execution, MAC DRC SARL supports you with precision and excellence.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- 1. Civil Engineering -->
+                <div class="bg-white p-8 rounded-2xl border border-grayBorder shadow-sm card-hover">
+                    <div class="w-12 h-12 bg-orange-100 text-brandOrange rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="hard-hat" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-grayDark mb-3">1. Civil Engineering & Construction</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">Site analysis, design, construction, and infrastructure maintenance. Turnkey execution of administrative buildings, industrial facilities, housing developments, bridges, and roads.</p>
+                </div>
+
+                <!-- 2. Mechanics -->
+                <div class="bg-white p-8 rounded-2xl border border-grayBorder shadow-sm card-hover">
+                    <div class="w-12 h-12 bg-orange-100 text-brandOrange rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="cog" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-grayDark mb-3">2. Automotive & General Mechanics</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">Mechanical service specialized in the maintenance of heavy machinery and engines. Complete repair and rewinding of squirrel-cage rotors and stators.</p>
+                </div>
+
+                <!-- 3. Import / Export -->
+                <div class="bg-white p-8 rounded-2xl border border-grayBorder shadow-sm card-hover">
+                    <div class="w-12 h-12 bg-orange-100 text-brandOrange rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="arrow-left-right" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-grayDark mb-3">3. Import & Export</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">Procurement of industrial goods and equipment at competitive international market rates. Facilitation of international export sales.</p>
+                </div>
+
+                <!-- 4. Logistics -->
+                <div class="bg-white p-8 rounded-2xl border border-grayBorder shadow-sm card-hover">
+                    <div class="w-12 h-12 bg-orange-100 text-brandOrange rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="truck" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-grayDark mb-3">4. Logistics & Transportation</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">Storage management, inventory control, delivery, and distribution. Collaborative solutions to optimize staff transportation for partner companies.</p>
+                </div>
+
+                <!-- 5. Goods & Services -->
+                <div class="bg-white p-8 rounded-2xl border border-grayBorder shadow-sm card-hover">
+                    <div class="w-12 h-12 bg-orange-100 text-brandOrange rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="shopping-bag" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-grayDark mb-3">5. Supply of Goods & Services</h3>
+                    <ul class="text-gray-600 text-xs space-y-2 mb-4">
+                        <li>• <strong>Investment Facilitation:</strong> ANAPI permits, joint ventures, and tax structuring.</li>
+                        <li>• <strong>General Trading:</strong> Fuel supply (Diesel, Petrol, Jet A1) and cement.</li>
+                        <li>• <strong>Precious Minerals:</strong> Trading in compliance with the Congolese Mining Code.</li>
+                        <li>• <strong>Agri-Food & Consulting:</strong> Fortified cereals, internal and external audits.</li>
+                    </ul>
+                </div>
+
+                <!-- 6. Environment -->
+                <div class="bg-white p-8 rounded-2xl border border-grayBorder shadow-sm card-hover">
+                    <div class="w-12 h-12 bg-orange-100 text-brandOrange rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="leaf" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-grayDark mb-3">6. Environment & CSR</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">Environmental and Social Impact Assessments (ESIA), responsible waste management, reforestation initiatives, and carbon credit projects.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-white border-t border-grayBorder py-6 text-center text-xs text-gray-500">
+        &copy; 2026 MAC DRC SARL. All rights reserved.
+    </footer>
+
+    <script>lucide.createIcons();</script>
+</body>
+</html>
