@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAC DRC SARL - Leading Partner in DRC</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandOrange: '#FF6B00',
+                        brandOrangeHover: '#E05E00',
+                        grayLight: '#F8FAFC',
+                        grayBorder: '#E2E8F0',
+                        grayDark: '#1E293B'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-white text-gray-800 antialiased flex flex-col min-h-screen">
+
+    <!-- Header / Navigation Bar -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-grayBorder">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="bg-brandOrange text-white font-extrabold text-xl px-3 py-1.5 rounded-lg shadow-sm">
+                    MAC DRC
+                </div>
+                <span class="text-xs font-semibold tracking-widest text-gray-500 uppercase hidden sm:block">SARL</span>
+            </div>
+            
+            <nav class="hidden md:flex space-x-8 text-sm font-semibold text-gray-700">
+                <a href="index.html" class="text-brandOrange">Home</a>
+                <a href="services.html" class="hover:text-brandOrange transition">Our Services</a>
+                <a href="#about" class="hover:text-brandOrange transition">About Us</a>
+                <a href="#legal" class="hover:text-brandOrange transition">Legal Information</a>
+                <a href="contact.html" class="hover:text-brandOrange transition">Contact</a>
+            </nav>
+
+            <a href="contact.html" class="hidden sm:inline-flex items-center px-5 py-2.5 text-sm font-bold text-white bg-brandOrange hover:bg-brandOrangeHover rounded-xl shadow-md transition">
+                Quote & Contact
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative py-20 bg-grayLight border-b border-grayBorder overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="inline-block px-3 py-1 text-xs font-bold text-brandOrange bg-orange-100 rounded-full mb-4">
+                    Company Registered Under Congolese Law
+                </span>
+                <h1 class="text-4xl sm:text-5xl font-extrabold text-grayDark leading-tight mb-6">
+                    Your reliable partner for engineering & services in <span class="text-brandOrange">DRC</span>
+                </h1>
+                <p class="text-gray-600 text-lg mb-8 leading-relaxed">
+                    A trusted partner for converting local resources into sustainable value. We integrate the entire value chain: from civil engineering to import-export with flawless OHADA traceability.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="services.html" class="px-7 py-3.5 bg-brandOrange hover:bg-brandOrangeHover text-white text-center font-bold rounded-xl shadow-lg transition">
+                        Discover Our Services
+                    </a>
+                    <a href="contact.html" class="px-7 py-3.5 bg-white text-grayDark border border-grayBorder hover:bg-gray-50 text-center font-bold rounded-xl shadow-sm transition">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="w-full h-96 bg-gray-200 rounded-2xl border border-grayBorder shadow-xl overflow-hidden flex items-center justify-center relative">
+                    <img src="./img/1.png" alt="MAC DRC SARL Construction Site" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-grayDark/60 to-transparent"></div>
+                    <div class="absolute bottom-6 left-6 right-6 text-white">
+                        <p class="font-bold text-lg">Quality, Responsibility & Proximity</p>
+                        <p class="text-xs text-gray-200">From design to execution for your major projects.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pillars & Values (About Us) -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl font-extrabold text-grayDark mb-4">Origin, Vision & Mission</h2>
+                <div class="w-16 h-1 bg-brandOrange mx-auto mb-6 rounded-full"></div>
+                <p class="text-gray-600">Established to foster development and satisfy our key partners across the DRC.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-8 bg-grayLight border border-grayBorder rounded-2xl card-hover">
+                    <div class="w-12 h-12 bg-orange-100 text-brandOrange rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="eye" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-grayDark mb-3">Our Vision</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">To be the preferred partner in the Democratic Republic of the Congo for converting local resources into sustainable value.</p>
+                </div>
+
+                <div class="p-8 bg-grayLight border border-grayBorder rounded-2xl card-hover">
+                    <div class="w-12 h-12 bg-orange-100 text-brandOrange rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="target" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-grayDark mb-3">Our Mission</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Integrate into the globalized value chain — from environmental management to export — with OHADA-compliant traceability and a positive social impact.</p>
+                </div>
+
+                <div class="p-8 bg-grayLight border border-grayBorder rounded-2xl card-hover">
+                    <div class="w-12 h-12 bg-orange-100 text-brandOrange rounded-xl flex items-center justify-center mb-6">
+                        <i data-lucide="award" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-grayDark mb-3">Our Values</h3>
+                    <ul class="text-gray-600 text-sm space-y-2">
+                        <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-brandOrange mr-2"></i> Compliance & Traceability</li>
+                        <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-brandOrange mr-2"></i> Excellence & Expertise Quality</li>
+                        <li class="flex items-center"><i data-lucide="check" class="w-4 h-4 text-brandOrange mr-2"></i> Proximity & Responsibility</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="py-20 bg-grayLight border-y border-grayBorder">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+                <div>
+                    <h2 class="text-3xl font-extrabold text-grayDark mb-3">Our Main Fields of Expertise</h2>
+                    <p class="text-gray-600">Comprehensive, turn-key solutions tailored to the Congolese market.</p>
+                </div>
+                <a href="services.html" class="mt-4 md:mt-0 text-brandOrange font-bold flex items-center hover:underline">
+                    View All Details <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
+                </a>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Service 1 -->
+                <div class="bg-white p-6 rounded-2xl border border-grayBorder card-hover">
+                    <i data-lucide="building-2" class="w-10 h-10 text-brandOrange mb-4"></i>
+                    <h4 class="text-lg font-bold text-grayDark mb-2">Civil Engineering & Construction</h4>
+                    <p class="text-gray-500 text-sm mb-4">Site assessment, design, construction, and infrastructure maintenance (buildings, roads, bridges).</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="bg-white p-6 rounded-2xl border border-grayBorder card-hover">
+                    <i data-lucide="wrench" class="w-10 h-10 text-brandOrange mb-4"></i>
+                    <h4 class="text-lg font-bold text-grayDark mb-2">Automotive & General Mechanics</h4>
+                    <p class="text-gray-500 text-sm mb-4">Specialized machinery maintenance, engine servicing (rotors/stators), and integrated mechanical lifecycle management.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="bg-white p-6 rounded-2xl border border-grayBorder card-hover">
+                    <i data-lucide="globe" class="w-10 h-10 text-brandOrange mb-4"></i>
+                    <h4 class="text-lg font-bold text-grayDark mb-2">Import & Export</h4>
+                    <p class="text-gray-500 text-sm mb-4">Procurement of goods at competitive prices and international marketing/distribution of products.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Legal Information & Company Profile -->
+    <section id="legal" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-grayDark text-white p-8 md:p-12 rounded-3xl shadow-xl">
+                <h3 class="text-2xl font-bold mb-6 text-orange-400">Company Identification</h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 text-sm">
+                    <div class="border-l-2 border-brandOrange pl-4">
+                        <p class="text-gray-400 text-xs uppercase">Company Name</p>
+                        <p class="font-bold text-base">MAC DRC SARL</p>
+                        <p class="text-gray-400 text-xs mt-1">LLC under Congolese Law</p>
+                    </div>
+                    <div class="border-l-2 border-brandOrange pl-4">
+                        <p class="text-gray-400 text-xs uppercase">RCCM Number</p>
+                        <p class="font-bold">KING/RCCM/19-B-01231</p>
+                        <p class="text-gray-400 text-xs mt-1">Year of Incorporation: 2019</p>
+                    </div>
+                    <div class="border-l-2 border-brandOrange pl-4">
+                        <p class="text-gray-400 text-xs uppercase">National ID</p>
+                        <p class="font-bold">01-83-N48750U</p>
+                    </div>
+                    <div class="border-l-2 border-brandOrange pl-4">
+                        <p class="text-gray-400 text-xs uppercase">Tax ID</p>
+                        <p class="font-bold">A191424H</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mt-auto bg-grayLight border-t border-grayBorder pt-12 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                <div>
+                    <div class="bg-brandOrange text-white font-extrabold text-xl px-3 py-1.5 rounded-lg inline-block mb-4">
+                        MAC DRC SARL
+                    </div>
+                    <p class="text-gray-500 text-sm">Your trusted partner in the Democratic Republic of the Congo for mining, environmental, civil engineering, and general trading services.</p>
+                </div>
+                <div>
+                    <h5 class="font-bold text-grayDark mb-4">Kinshasa Headquarters</h5>
+                    <p class="text-gray-500 text-sm leading-relaxed">N°11, Avenue Kwango, Q. Joli Parc,<br>Commune de Ngaliema. Kinshasa - DRC</p>
+                </div>
+                <div>
+                    <h5 class="font-bold text-grayDark mb-4">Lubumbashi Headquarters</h5>
+                    <p class="text-gray-500 text-sm leading-relaxed">N°02, Avenue Saint Bernard, Q. Météo,<br>Lubumbashi, Haut-Katanga - DRC</p>
+                </div>
+            </div>
+            <div class="border-t border-grayBorder pt-6 text-center text-xs text-gray-500">
+                &copy; 2026 MAC DRC SARL. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
